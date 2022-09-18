@@ -1,0 +1,40 @@
+.subtotal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    background-color: #f3f3f3;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.subtotal__gift {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.subtotal__gift>input {
+    margin-right: 10px;
+}
+
+.subtotal>button {
+    background-color: #ffd814;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+    padding: 10px 30px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.subtotal>button:hover {
+    background-color: #F7CA00;
+}
+
+.subtotal>button:active {
+    transform: scale(0.9);
+}

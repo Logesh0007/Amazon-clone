@@ -1,0 +1,53 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: rgba(229, 255, 235, 0.4);
+}
+
+.banner__cont {
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(to right, #00061b, #07a1dd);
+    mask-image: linear-gradient(to top, transparent 25%, black 75%);
+    display: flex !important;
+}
+
+.banner__cont div {
+    width: 100%;
+    height: 100%;
+}
+
+.banner__cont img {
+    height: 100%;
+    width: 100%;
+}
+
+.right-arrow:hover path,
+.left-arrow:hover path {
+    opacity: 1;
+}
+
+.slick-slider {
+    align-items: flex-start;
+}
+
+.slick-slide .slick-active .slick-current {
+    display: flex !important;
+}
+
+.slick-initialized .slick-slide {
+    justify-content: center;
+}
+
+.home__row {
+    display: flex;
+    z-index: 1;
+    margin: 0 5px;
+}
+
+.home__gradient {
+    height: 450px;
+    width: 100%;
+    margin-bottom: -150px;
+}
